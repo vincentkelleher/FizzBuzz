@@ -1,4 +1,6 @@
-import fizzbuzz.FizzBuzz;
+package com;
+
+import com.fizzbuzz.FizzBuzz;
 import spark.Request;
 import spark.Response;
 import spark.Route;

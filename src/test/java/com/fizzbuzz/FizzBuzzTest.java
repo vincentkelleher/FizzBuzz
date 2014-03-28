@@ -1,4 +1,4 @@
-package fizzbuzz;
+package com.fizzbuzz;
 
 import org.junit.Test;
 
@@ -9,12 +9,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class FizzBuzzTest
 {
-    private FizzBuzz fb;
+    private com.fizzbuzz.FizzBuzz fb;
 
     @org.junit.Before
     public void setUp() throws Exception
     {
-        fb = new FizzBuzz();
+        fb = new com.fizzbuzz.FizzBuzz();
     }
 
     @Test
