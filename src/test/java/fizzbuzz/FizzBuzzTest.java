@@ -41,6 +41,12 @@ public class FizzBuzzTest
         assertEquals("7 !", fb.answer(7));
     }
 
+    @Test
+    public void testHundredAnswers() throws Exception
+    {
+        assertEquals(100, fb.getAnswers(100).length);
+    }
+
     @org.junit.After
     public void tearDown() throws Exception
     {

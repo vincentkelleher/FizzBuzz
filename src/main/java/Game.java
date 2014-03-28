@@ -1,8 +1,5 @@
 import fizzbuzz.FizzBuzz;
 
-/**
- * Created by Vincent on 28/03/2014.
- */
 public class Game
 {
     public static void main(String[] args)

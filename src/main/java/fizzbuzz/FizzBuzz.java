@@ -20,5 +20,14 @@ public class FizzBuzz
 
         return answer + " !";
     }
+    
+    public String[] getAnswers(int numberOfAnswers) {
+        String[] answers = new String[numberOfAnswers];
 
+        for (int i = 1; i <= numberOfAnswers; i++) {
+            answers[i - 1] = answer(i);
+        }
+
+        return answers;
+    }
 }
