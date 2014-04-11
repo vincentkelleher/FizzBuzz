@@ -1,11 +1,14 @@
 language: java
 jdk:
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
+    - oraclejdk7
+    - openjdk7
+    - openjdk6
 deploy:
-  provider: heroku
-  api_key: "34b8dce8-fa8a-4348-b679-32136bfce8a4"
-  app:
-    master: epsi-fizzbuzz
-    develop: testing-epsi-fizzbuzz
+    provider: heroku
+    api_key: "34b8dce8-fa8a-4348-b679-32136bfce8a4"
+    app:
+        master: epsi-fizzbuzz
+        develop: testing-epsi-fizzbuzz
+    on:
+        all_branches: true
+    strategy: git
