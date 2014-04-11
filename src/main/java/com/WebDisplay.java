@@ -16,7 +16,7 @@ public class WebDisplay
             public Object handle(Request request, Response response) {
                 FizzBuzz fb = new FizzBuzz();
 
-                String responseString = "";
+                String responseString = "Test <br>";
                 for (String answer : fb.getAnswers(Integer.parseInt(request.params(":number")))) {
                     responseString += answer + "<br>";
                 }
